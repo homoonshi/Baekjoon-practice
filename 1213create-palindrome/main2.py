@@ -1,10 +1,11 @@
 import collections
+import sys
 
 # CREATE PALINDROME
 # 1. input hansoo's english name
 # 2. and make palindrome with alphabet of hansoo's english name
 
-hansoo_e_name = input()
+hansoo_e_name = sys.stdin.readline().rstrip()
 Alphabet = collections.Counter(hansoo_e_name)
 # the number of alphabets of hansoo's english name
 # 한수의 영어 이름 알파벳 개수를 세서 딕셔너리로 정리한다.
